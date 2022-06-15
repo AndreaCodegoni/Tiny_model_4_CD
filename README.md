@@ -22,7 +22,7 @@ conda activate TinyCD
 
 ## Dataset 
 
-You can find the original datasets at this two links:
+You can find the original datasets at these two links:
 
 LEVIR-CD: https://justchenhao.github.io/LEVIR/
 
