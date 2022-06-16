@@ -28,15 +28,7 @@ LEVIR-CD: https://justchenhao.github.io/LEVIR/
 
 WHU-CD: https://study.rsgis.whu.edu.cn/pages/download/building_dataset.html
 
-Then you have to process the data as described in the paper in order to obtain the following structure:
-
-```
-Change detection data set with pixel-level binary labels；
-├─A
-├─B
-├─label
-└─list
-```
+Then, for each dataset, you have to organise the data in the following way:
 
 `A`: images of t1 phase;
 
@@ -79,7 +71,7 @@ python training.py --datapath "Your_data_path" --log-path "Path_to_save_logs_and
 
 ## References
 
-We want to mention the following repository that greatly help us in our work:
+We want to mention the following repositories that greatly help us in our work:
 
 - https://github.com/justchenhao/BIT_CD We have used this repository in the visual comparison and to report other state-of-the-art results on the two datasets.
 - https://github.com/wgcban/ChangeFormer/ and https://github.com/wgcban/SemiCD for the datasets.
