@@ -1,6 +1,6 @@
 # Tiny_CD
 
-This is the implementation of:
+This is the implementation of: TINYCD: A (NOT SO) DEEP LEARNING MODEL FOR CHANGE DETECTION
 
 You can find the complete work here: 
 
