@@ -11,6 +11,11 @@ You can find the complete work here:
 ## Results
 
 
+
+https://user-images.githubusercontent.com/54067932/180251485-b3776855-3666-460a-a15b-05b2bbc0a088.mp4
+
+
+
 In the following table we report the quantitative comparison of our model and other State-of-the-art models. F1 scores are reported in percentage, parameters in Millions and Flops in Gigaflops
 ![Table Results](./images/results.PNG)
 
