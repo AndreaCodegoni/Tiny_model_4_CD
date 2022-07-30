@@ -6,7 +6,7 @@ This is the implementation of: TINYCD: A (NOT SO) DEEP LEARNING MODEL FOR CHANGE
 
 
 
-You can find the complete work here: 
+You can find the complete work here: https://arxiv.org/abs/2207.13159
 
 ## Results
 
