@@ -1,12 +1,11 @@
 # Tiny_CD
 
-![network](https://user-images.githubusercontent.com/54067932/180247397-6ae3160a-40bf-4da9-8d7d-49de5b363ac0.gif)
-
 This is the implementation of: TINYCD: A (NOT SO) DEEP LEARNING MODEL FOR CHANGE DETECTION
 
-
-
 You can find the complete work here: https://arxiv.org/abs/2207.13159
+
+![network](https://user-images.githubusercontent.com/54067932/180247397-6ae3160a-40bf-4da9-8d7d-49de5b363ac0.gif)
+
 
 ## Results
 
