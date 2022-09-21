@@ -128,7 +128,7 @@ nspr=4.33=h295c915_0
 nss=3.74=h0370c37_0
 numpy=1.22.3=py38he7a7128_0
 numpy-base=1.22.3=py38hf524024_0
-oauthlib=3.2.0=pyhd8ed1ab_0
+oauthlib>3.2.1=pyhd8ed1ab_0
 omegaconf=2.1.2=py38h578d9bd_0
 opencv=4.4.0=py38_2
 openh264=2.1.1=h4ff587b_0
