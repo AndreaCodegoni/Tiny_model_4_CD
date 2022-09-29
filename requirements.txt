@@ -137,7 +137,7 @@ packaging=21.3=pyhd3eb1b0_0
 pandas=1.4.2=pypi_0
 partd=1.2.0=pyhd3eb1b0_1
 pcre=8.45=h295c915_0
-pillow=9.0.1=py38h22f2fdc_0
+pillow>=9.0.1
 pip=21.2.4=py38h06a4308_0
 pixman=0.40.0=h7f8727e_1
 prettytable=3.3.0=pypi_0
@@ -147,7 +147,7 @@ py-opencv=4.4.0=py38h23f93f0_2
 pyasn1=0.4.8=py_0
 pyasn1-modules=0.2.7=py_0
 pycparser=2.21=pyhd3eb1b0_0
-pyjwt=2.4.0=pyhd8ed1ab_0
+pyjwt>=2.4.0
 pymongo=4.1.1=pypi_0
 pyopenssl=22.0.0=pyhd3eb1b0_0
 pyparsing=3.0.4=pyhd3eb1b0_0
