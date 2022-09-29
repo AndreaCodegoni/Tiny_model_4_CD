@@ -141,7 +141,7 @@ pillow=9.0.1=py38h22f2fdc_0
 pip=21.2.4=py38h06a4308_0
 pixman=0.40.0=h7f8727e_1
 prettytable=3.3.0=pypi_0
-protobuf=3.15.8=py38h709712a_0
+protobuf>=3.18.3
 psutil=5.9.1=pypi_0
 py-opencv=4.4.0=py38h23f93f0_2
 pyasn1=0.4.8=py_0
