@@ -4,7 +4,7 @@ This is the implementation of: TINYCD: A (NOT SO) DEEP LEARNING MODEL FOR CHANGE
 
 You can find the complete work here: https://arxiv.org/abs/2207.13159
 
-![network](https://user-images.githubusercontent.com/54067932/180247397-6ae3160a-40bf-4da9-8d7d-49de5b363ac0.gif)
+![overall_architecture_v2](https://user-images.githubusercontent.com/54067932/200079842-533e9111-9307-47b4-8c9f-d18953d0548a.png)
 
 
 ## Results
