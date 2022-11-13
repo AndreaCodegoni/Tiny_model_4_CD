@@ -73,15 +73,8 @@ def train(
     writer,
     epochs,
     save_after,
+    device
 ):
-    args = parse_arguments()
-
-    if torch.cuda.is_available():
-        device = torch.device(f'cuda:{args.gpu_id}')
-    else:
-        device = torch.device('cpu')
-
-    print(f'Current Device: {device}')
 
     model = model.to(device)
 
@@ -209,6 +202,14 @@ def run():
     data_loader_training = DataLoader(trainingdata, batch_size=8, shuffle=True)
     data_loader_val = DataLoader(validationdata, batch_size=8, shuffle=True)
 
+    # device setting for training
+    if torch.cuda.is_available():
+        device = torch.device(f'cuda:{args.gpu_id}')
+    else:
+        device = torch.device('cpu')
+
+    print(f'Current Device: {device}\n')
+
     # Initialize the model
     model = Model()
     restart_from_checkpoint = False
@@ -222,9 +223,7 @@ def run():
     for nom, param in model.named_parameters():
         # print (nom, param.data.shape)
         parameters_tot += torch.prod(torch.tensor(param.data.shape))
-    print()
-    print("Number of model parameters {}".format(parameters_tot))
-    print()
+    print("Number of model parameters {}\n".format(parameters_tot))
 
     # define the loss function for the model training.
     criterion = torch.nn.BCELoss()
@@ -259,6 +258,7 @@ def run():
         writer,
         epochs=100,
         save_after=1,
+        device=device
     )
     writer.close()
 
