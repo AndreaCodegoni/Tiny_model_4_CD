@@ -77,9 +77,9 @@ def train(
     args = parse_arguments()
 
     if torch.cuda.is_available():
-        device = torch.cuda.device(args.gpu_id)
+        device = torch.device(f'cuda:{args.gpu_id}')
     else:
-        device = "cpu"
+        device = torch.device('cpu')
 
     print(f'Current Device: {device}')
 
