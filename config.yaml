@@ -1,5 +1,5 @@
 path:
-  dataloader_path: ./dataset/dataset.MyDataset
+  dataloader_path: MyDataset
 params:
   epochs: 100
   epoch_loss: 0.0
