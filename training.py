@@ -2,8 +2,9 @@ import argparse
 import os
 import shutil
 
+import yaml
 
-import dataset.dataset as dtset
+import dataset
 import torch
 import numpy as np
 import random
@@ -11,6 +12,19 @@ from metrics.metric_tool import ConfuseMatrixMeter
 from models.change_classifier import ChangeClassifier as Model
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
+
+
+def load_config(config_file):
+    with open(config_file) as file:
+        config = yaml.safe_load(file)
+
+    return config
+
+
+cfg = load_config("config.yaml")
+loader_dict = {
+    "MyDataset": "MyDataset"
+}
 
 
 def parse_arguments():
@@ -197,10 +211,14 @@ def run():
     writer = SummaryWriter(log_dir=args.log_path)
 
     # Inizialitazion of dataset and dataloader:
-    trainingdata = dtset.MyDataset(args.datapath, "train")
-    validationdata = dtset.MyDataset(args.datapath, "val")
-    data_loader_training = DataLoader(trainingdata, batch_size=8, shuffle=True)
-    data_loader_val = DataLoader(validationdata, batch_size=8, shuffle=True)
+    trainingdata = loader_dict[cfg["path"]
+                               ["dataloader_path"]](args.datapath, "train")
+    validationdata = loader_dict[cfg["path"]
+                                 ["dataloader_path"]](args.datapath, "val")
+    data_loader_training = DataLoader(
+        trainingdata, batch_size=cfg["params"]["batch_size"], shuffle=True)
+    data_loader_val = DataLoader(
+        validationdata, batch_size=cfg["params"]["batch_size"], shuffle=True)
 
     # device setting for training
     if torch.cuda.is_available():
@@ -256,7 +274,7 @@ def run():
         scheduler,
         args.log_path,
         writer,
-        epochs=100,
+        epochs=cfg["params"]["epochs"],
         save_after=1,
         device=device
     )
