@@ -89,6 +89,17 @@ def train(
     save_after,
     device
 ):
+<<<<<<< Updated upstream
+=======
+    args = parse_arguments()
+
+    if torch.cuda.is_available():
+        device = torch.device(f'cuda:{args.gpu_id}')
+    else:
+        device = torch.device('cpu')
+
+    print(f'Current Device: {device}')
+>>>>>>> Stashed changes
 
     model = model.to(device)
 
