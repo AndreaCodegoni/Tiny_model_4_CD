@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# lfs
+dataset/LEVIR-CD-256/
+dataset/WHU-CD-256/
