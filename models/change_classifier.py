@@ -33,9 +33,9 @@ class ChangeClassifier(Module):
         # Initialize Upsampling blocks:
         self._up = ModuleList(
             [
-                UpMask(64, 56, 64),
-                UpMask(128, 64, 64),
-                UpMask(256, 64, 32),
+                UpMask(2, 56, 64),
+                UpMask(2, 64, 64),
+                UpMask(2, 64, 32),
             ]
         )
 
