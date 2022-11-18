@@ -96,13 +96,13 @@ class MixingMaskAttentionBlock(Module):
 class UpMask(Module):
     def __init__(
         self,
-        up_dimension: int,
+        scale_factor: float,
         nin: int,
         nout: int,
     ):
         super().__init__()
         self._upsample = Upsample(
-            size=(up_dimension, up_dimension), mode="bilinear", align_corners=True
+            scale_factor=scale_factor, mode="bilinear", align_corners=True
         )
         self._convolution = Sequential(
             Conv2d(nin, nin, 3, 1, groups=nin, padding=1),
