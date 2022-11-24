@@ -1,6 +1,8 @@
 # Tiny_CD
 
-This is the implementation of: TINYCD: A (NOT SO) DEEP LEARNING MODEL FOR CHANGE DETECTION
+This is the implementation of: TinyCD: A (Not So) Deep Learning Model For Change Detection
+
+:fire: :fire: :fire: TinyCD has been accepted for publication in Neural Computing and Applications :fire: :fire: :fire:
 
 You can find the complete work here: https://arxiv.org/abs/2207.13159
 
