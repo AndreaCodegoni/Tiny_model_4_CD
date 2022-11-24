@@ -4,7 +4,7 @@ This is the implementation of: TinyCD: A (Not So) Deep Learning Model For Change
 
 :fire: :fire: :fire: TinyCD has been accepted for publication in Neural Computing and Applications :fire: :fire: :fire:
 
-You can find the complete work here: https://arxiv.org/abs/2207.13159
+You can find the pre-print version here: https://arxiv.org/abs/2207.13159
 
 ![overall_architecture_v2](https://user-images.githubusercontent.com/54067932/200163403-d30bd1c4-a048-4c55-9656-90075e0eaa83.png)
 
