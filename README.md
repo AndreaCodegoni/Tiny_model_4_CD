@@ -2,7 +2,7 @@
 
 This is the implementation of: TinyCD: A (Not So) Deep Learning Model For Change Detection
 
-:fire: :fire: :fire: TinyCD has been accepted for publication in Neural Computing and Applications :fire: :fire: :fire:
+:fire: :fire: :fire: TinyCD has been accepted for publication in Neural Computing and Applications https://link.springer.com/article/10.1007/s00521-022-08122-3 :fire: :fire: :fire:
 
 You can find the pre-print version here: https://arxiv.org/abs/2207.13159
 
