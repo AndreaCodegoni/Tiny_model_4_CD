@@ -40,7 +40,7 @@ fontconfig=2.13.1
 freetype=2.11.0
 frozenlist=1.3.0
 fsspec=2022.3.0
-future=0.18.2
+future>=0.18.3
 geos=3.8.0
 gettext=0.21.0
 giflib=5.2.1
@@ -196,7 +196,7 @@ typing_extensions=4.1.1=pyh06a4308_0
 urllib3=1.26.9=py38h06a4308_0
 wcwidth=0.2.5=pypi_0
 websockets=10.3=pypi_0
-werkzeug=2.1.2=pyhd8ed1ab_1
+Werkzeug>=2.2.3
 wheel>=0.38.1
 xz=5.2.5=h7f8727e_1
 yaml=0.2.5=h7b6447c_0
