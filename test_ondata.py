@@ -15,12 +15,13 @@ def parse_arguments():
         "--datapath",
         type=str,
         help="data path",
-        default="/home/codegoni/aerial/WHU-CD-256/WHU-CD-256",
+        default="/home/${USER}/Tiny_model_4_CD/WHU-CD-256",
     )
     parser.add_argument(
         "--modelpath",
         type=str,
         help="model path",
+        default="/home/${USER}/Tiny_model_4_CD/pretrained_models/whu_best.pth"
     )
 
     parsed_arguments = parser.parse_args()
@@ -43,7 +44,7 @@ if __name__ == "__main__":
     # Initialisation of the model and print model stat
     model = ChangeClassifier()
     modelpath = args.modelpath
-    model.load_state_dict(torch.load(modelpath))
+    model.load_state_dict(torch.load(modelpath),strict=False)
 
     # Print the number of model parameters 
     param_tot = sum(p.numel() for p in model.parameters())
