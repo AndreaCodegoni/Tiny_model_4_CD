@@ -93,6 +93,10 @@ You can re-train our model, or if you prefer you can play with the parameters of
 python training.py --datapath "Your_data_path" --log-path "Path_to_save_logs_and_models_checkpoints"
 ```
 
+## Extensions
+If you are interested, I will link here some exstensions to other types of data:
+- Exstension on images with >3 channels (e.g. sentinel 2) https://github.com/Dibz15/OpenMineChangeDetection (thanks to @robmarkcole to for the link)  
+
 ## References
 
 We want to mention the following repositories that greatly help us in our work:
