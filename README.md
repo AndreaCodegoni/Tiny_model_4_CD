@@ -2,9 +2,9 @@
 
 This is the implementation of: TinyCD: A (Not So) Deep Learning Model For Change Detection
 
-:fire: :fire: :fire: TinyCD has been accepted for publication in Neural Computing and Applications https://link.springer.com/article/10.1007/s00521-022-08122-3 :fire: :fire: :fire:
+:fire: :fire: :fire: TinyCD has been accepted for publication in [Neural Computing and Applications](https://link.springer.com/article/10.1007/s00521-022-08122-3) :fire: :fire: :fire:
 
-You can find the pre-print version here: https://arxiv.org/abs/2207.13159
+You can find the pre-print version here: [arXiv](https://arxiv.org/abs/2207.13159)
 
 ![overall_architecture_v2](https://user-images.githubusercontent.com/54067932/200163403-d30bd1c4-a048-4c55-9656-90075e0eaa83.png)
 
@@ -93,9 +93,13 @@ You can re-train our model, or if you prefer you can play with the parameters of
 python training.py --datapath "Your_data_path" --log-path "Path_to_save_logs_and_models_checkpoints"
 ```
 
-## Extensions
-If you are interested, I will link here some exstensions to other types of data:
-- Exstension on images with >3 channels (e.g. sentinel 2) https://github.com/Dibz15/OpenMineChangeDetection (thanks to @robmarkcole to for the link)  
+## External repositories using TinyCD
+Here I report some repositories that use TinyCD for their search. 
+If you use TinyCD and enjoy it, please let me know your work so I can add it
+
+- [Exstension on images with >3 channels (e.g. sentinel 2)](https://github.com/Dibz15/OpenMineChangeDetection) (thanks to @robmarkcole for the link)
+- [Open-CD is an open source change detection toolbox based on a series of open source general vision task tools.](https://github.com/likyoo/open-cd)
+- [A Machine Learning data pipeline for the Change detection for Burned area Delineation (ChaBuD) challenge at the ECML/PKDD 2023 conference.](https://github.com/developmentseed/chabud2023/tree/main) (thanks to @robmarkcole for the link)
 
 ## References
 
