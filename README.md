@@ -62,16 +62,7 @@ Then, for each dataset, you have to organise the data in the following way:
 
 `list`: contains `train.txt`, `val.txt` and `test.txt`, each file records the image names (XXX.png) in the change detection dataset.
 
-If you prefer, you can download the pre-processed dataset using the following:
-
-LEVIR-CD 
-```cmd
-wget https://www.dropbox.com/s/h9jl2ygznsaeg5d/LEVIR-CD-256.zip
-```
-WHU-CD
-```cmd
-wget https://www.dropbox.com/s/r76a00jcxp5d3hl/WHU-CD-256.zip
-```
+If you prefer, you can download the pre-processed dataset from this [link](https://drive.google.com/drive/folders/1uTExi7JbiSwXXqPdeJp2GCE7B-0QI6xh?usp=sharing).
 
 If you have any trouble with the datasets, feel free to contact us.
 
